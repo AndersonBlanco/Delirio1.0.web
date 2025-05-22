@@ -1,17 +1,30 @@
- import './App.css';
- import TestPage from './test';
- import Home from './Home';
-import { BrowserRouter, Route, Link, Routes, createBrowserRouter } from 'react-router';
+// src/App.js
+
+import React from "react";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link,
+    useNavigate,
+    Outlet,
+} from "react-router-dom";
+import Home from "./Pages/Home"; 
+import TestPage from "./Pages/test"; 
  
+
 function App() {
-  return (
-    <BrowserRouter> 
-    <Routes>
-      <Route path= "/" element = {<Home/>}/>
-      <Route path= "/test" element = {<TestPage/>}/>
-    </Routes>
-    </BrowserRouter>
-  );
+    return (
+        <Router>
+          <nav>
+            
+          </nav>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/test" element={<TestPage />}/>
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;

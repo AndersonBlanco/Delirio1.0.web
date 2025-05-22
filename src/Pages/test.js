@@ -1,11 +1,17 @@
 import * as react from "react"; 
-import { Link } from "react-router";
-
+ import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link,
+    useNavigate,
+    Outlet,
+} from "react-router-dom";
 export default function TestPage(){
     return(
         <div>
             <h1> Test Pages</h1>
-            <Link to = "/">Back to Home</Link>
+    
         </div>
     )
 }
