@@ -11,10 +11,15 @@
   align-items: center;
   justify-items: center;
   min-height: 100svh;
-  padding: 80px;
+  padding: 0;
+  padding-top: 243px;
   gap: 64px;
   font-family: var(--font-geist-sans);
+  height: 100vh;
+  width: 100vw; 
+  overflow: hidden;
 }
+ 
 
 @media (prefers-color-scheme: dark) {
   .page {
@@ -24,6 +29,8 @@
 
     --button-primary-hover: #ccc;
     --button-secondary-hover: #1a1a1a;
+      height: 100vh;
+  width: 100vw; 
   }
 }
 
@@ -130,6 +137,8 @@ a.secondary {
   .page {
     padding: 32px;
     padding-bottom: 80px;
+      height: 100vh;
+  width: 100vw; 
   }
 
   .main {
@@ -165,4 +174,50 @@ a.secondary {
   .logo {
     filter: invert();
   }
+}
+
+
+._header{
+  background-color: transparent;
+  width:100%;
+  top: 15px;
+  
+ justify-content: space-evenly;
+  position: static;
+}
+
+
+ 
+
+.row{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ background-color: white;
+ width:100%;
+ 
+}
+
+._ul li{
+ padding-block: 10px;
+}
+._ul li h1{
+  text-decoration: underline;
+}
+
+._ul li:first-child{
+  position:relative;
+  left:40;
+}
+
+
+._ul li:nth-child(2){
+  position:relative;
+  left:-10;
+}
+
+._ul li:nth-child(3){
+  position:relative;
+  left:-51;
 }
