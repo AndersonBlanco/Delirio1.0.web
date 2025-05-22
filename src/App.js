@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+ import './App.css';
+ import TestPage from './test';
+ import Home from './Home';
+import { BrowserRouter, Route, Link, Routes, createBrowserRouter } from 'react-router';
  
 function App() {
   return (
-    <div className="App">
-    <h1>Hello Universe</h1>
-    <a href='./test.js'>To test Page</a>
-    </div>
+    <BrowserRouter> 
+    <Routes>
+      <Route path= "/" element = {<Home/>}/>
+      <Route path= "/test" element = {<TestPage/>}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
