@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/FiTech2.0.web/static/css/main.f855e6bc.css",
-    "main.js": "/FiTech2.0.web/static/js/main.3926829e.js",
+    "main.js": "/FiTech2.0.web/static/js/main.1fb61cee.js",
+    "static/js/453.d8812e98.chunk.js": "/FiTech2.0.web/static/js/453.d8812e98.chunk.js",
     "index.html": "/FiTech2.0.web/index.html",
     "main.f855e6bc.css.map": "/FiTech2.0.web/static/css/main.f855e6bc.css.map",
-    "main.3926829e.js.map": "/FiTech2.0.web/static/js/main.3926829e.js.map"
+    "main.1fb61cee.js.map": "/FiTech2.0.web/static/js/main.1fb61cee.js.map",
+    "453.d8812e98.chunk.js.map": "/FiTech2.0.web/static/js/453.d8812e98.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.3926829e.js"
+    "static/js/main.1fb61cee.js"
   ]
 }
