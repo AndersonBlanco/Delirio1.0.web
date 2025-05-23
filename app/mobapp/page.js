@@ -15,7 +15,7 @@ export default function MobApp(){
  
   
     return(
-        <div id = "About" className = {styles.page} style = {{backgroundColor:"black", justifyContent:"center", alignItems:"center"}}>
+        <div id = "About" className = {styles.page} style = {{backgroundColor:"black", justifyContent:"center", alignItems:"center", paddingBlock: 50}}>
            <div 
            
            style = {{

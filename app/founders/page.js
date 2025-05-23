@@ -30,7 +30,7 @@ export default function Founders(){
 
   return(
     <div className={styles.page} style = {{ alignItems:"center", backgroundColor:"transparent", }}>
- <h3 style = {{fontSize: "150%", color:"black", textDecoration:"underline", }}>FOUNDERS</h3>
+ <h3 style = {{marginTop: 100,fontSize: "150%", color:"black", textDecoration:"none", }}>-FOUNDERS-</h3>
 <div style = {{
     display:"flex",
     flexDirection:"row",
@@ -51,7 +51,7 @@ export default function Founders(){
     textAlign:"center",
     justifyContent:"center",
     alignItems:"center",
-  marginTop: 100,
+  marginTop: 50,
     height: "100%",
     flexDirection:"column",
     display:"flex",
