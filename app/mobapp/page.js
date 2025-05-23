@@ -30,6 +30,7 @@ export default function MobApp(){
            overflow: "scroll",
             whiteSpace:"nowrap", 
              paddingBlock: 34,
+             paddingInline: 10, 
              position:"relative", 
              columnGap: 25,
              scrollbarGutter:"stable",
@@ -37,23 +38,23 @@ export default function MobApp(){
              }}>
 
         
-<div style= {{minWidth: "200px", maxWidth: "300px"}}>
+<div style= {{minWidth: "150px", maxWidth: "250px"}}>
     <Image  layout = {"responsive"}  height= {100} style= {{}} src = {U1}/>
 </div>
  
      
-        <div style= {{minWidth: "200px", maxWidth: "300px"}}>    
+        <div style= {{minWidth: "170px", maxWidth: "270px"}}>    
             <Image   layout = {"responsive"}  height={100} style= {{}} src = {U2}/>
                 </div>
  <div style= {{minWidth: "200px", maxWidth: "300px"}}>
 
-<Image layout = {"responsive"}  height={100} style= {{}} src = {U4}/>
+<Image layout = {"responsive"}  height={100} style= {{}} src = {U3}/>
 </div>
-                                     <div style= {{minWidth: "200px", maxWidth: "300px"}}>    
+                                     <div style= {{minWidth: "170px", maxWidth: "270px"}}>    
             <Image  layout = {"responsive"} height={100} style= {{}} src = {U6}/>
                 </div>   
 
-                        <div style= {{minWidth: "200px", maxWidth: "300px"}}>    
+                        <div style= {{minWidth: "150px", maxWidth: "150px"}}>    
             <Image layout = {"responsive"}  height={100} style= {{}} src = {U5}/>
                 </div>   
  
