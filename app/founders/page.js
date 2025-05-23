@@ -10,7 +10,9 @@ export default function Founders(){
                 alignItems:"center", 
                 justifyContent:"center",
                 display:"flex",
-                flexDirection:"column"}}>
+                flexDirection:"column",
+                rowGap: 25
+                }}>
               
                 <div style = {{ backgroundColor:"", width: "15vw", position:"relative", }}>
                 <Image alt="" layout="responsive" src = {img} objectFit="contain" />
@@ -27,14 +29,16 @@ export default function Founders(){
 
 
   return(
-    <div className={styles.page} style = {{ backgroundColor:"transparent", paddingTop: 300}}>
-
+    <div className={styles.page} style = {{ alignItems:"center", backgroundColor:"transparent", }}>
+ <h3 style = {{fontSize: "150%", color:"black", textDecoration:"underline", }}>FOUNDERS</h3>
 <div style = {{
     display:"flex",
     flexDirection:"row",
     justifyContent:"space-evenly",
         width:"100%",
     alignItems:"center",
+    backgroundColor:"transparent",
+    
 
 }}>
  <Profile name={"Anderson Blanco"} img={Logo } descr={"BU Class of 2028"} />
@@ -47,7 +51,7 @@ export default function Founders(){
     textAlign:"center",
     justifyContent:"center",
     alignItems:"center",
-  
+  marginTop: 150,
     height: "100%"
 }}>
     <div style = {{display:"felx", flexDirection:"row", justifyContent:"space-between"}}>
