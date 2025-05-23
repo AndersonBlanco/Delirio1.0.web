@@ -7,7 +7,7 @@ import HomeImg from "./assets/img1.png";
 import Arrow from "./assets/Arrow"; 
 import Founders from "./founders/page";
 import About from "./mobapp/page";
-
+import ModelPreview from "./modelPreview/page";
 export default function Home() {
  
    
@@ -52,6 +52,7 @@ export default function Home() {
     </div>
     </div>
     <About/>
+    <ModelPreview/>
     <Founders/>
     </>
   );
