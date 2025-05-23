@@ -17,8 +17,8 @@ export default function Founders(){
                 </div>
 
                 
-                <h1 style = {{fontSize: "150%"}}>{name}</h1>
-                <h1 style = {{fontSize: "150%"}}>{descr}</h1>
+                <h1 style = {{color: "black", fontSize: "150%"}}>{name}</h1>
+                <h1 style = {{color: "black", fontSize: "150%"}}>{descr}</h1>
  
              
             </div>
@@ -27,7 +27,7 @@ export default function Founders(){
 
 
   return(
-    <div className={styles.page} style = {{ backgroundColor:"red", paddingTop: 300}}>
+    <div className={styles.page} style = {{ backgroundColor:"transparent", paddingTop: 300}}>
 
 <div style = {{
     display:"flex",

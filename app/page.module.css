@@ -203,7 +203,7 @@ a.secondary {
  padding-block: 10px;
 }
 ._ul li h1{
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 ._ul li:first-child{

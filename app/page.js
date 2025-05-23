@@ -6,7 +6,7 @@ import Image from "next/image";
 import HomeImg from "./assets/img1.png"; 
 import { Arrow } from "./assets/svgs";
 import Founders from "./founders/page";
-import About from "./about/page";
+import About from "./mobapp/page";
 
 export default function Home() {
   const ratio = (700/370),
@@ -41,8 +41,8 @@ export default function Home() {
                   listStyleType:"none",
 
                 }}>
-                  <li  ><h1>LEARN</h1></li>
-                  <li  ><h1>DEVELOP</h1></li>
+                  <li><Link href = "#About" scroll = {true}><h1>LEARN</h1></Link></li>
+                  <li><h1>DEVELOP</h1></li>
                   <li  ><h1>APPLY</h1></li>
                 </ul>
 
