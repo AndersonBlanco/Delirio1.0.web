@@ -37,10 +37,10 @@ export default function MobApp(){
             scrollbarWidth:"none",
              }}>
 
-        
-<div style= {{minWidth: "150px", maxWidth: "250px"}}>
-    <Image  layout = {"responsive"}  height= {100} style= {{}} src = {U1}/>
-</div>
+                                         <div style= {{minWidth: "150px", maxWidth: "250px"}}>    
+            <Image  layout = {"responsive"} height={100} style= {{}} src = {U6}/>
+                </div>   
+
  
      
         <div style= {{minWidth: "170px", maxWidth: "270px"}}>    
@@ -50,11 +50,13 @@ export default function MobApp(){
 
 <Image layout = {"responsive"}  height={100} style= {{}} src = {U3}/>
 </div>
-                                     <div style= {{minWidth: "170px", maxWidth: "270px"}}>    
-            <Image  layout = {"responsive"} height={100} style= {{}} src = {U6}/>
-                </div>   
+     
 
-                        <div style= {{minWidth: "150px", maxWidth: "150px"}}>    
+<div style= {{minWidth: "170px", maxWidth: "270px"}}>
+    <Image  layout = {"responsive"}  height= {100} style= {{}} src = {U1}/>
+</div>
+ 
+                        <div style= {{minWidth: "150px", maxWidth: "250px"}}>    
             <Image layout = {"responsive"}  height={100} style= {{}} src = {U5}/>
                 </div>   
  
