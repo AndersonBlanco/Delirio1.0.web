@@ -41,8 +41,8 @@ export default function Founders(){
     
 
 }}>
- <Profile name={"Anderson Blanco"} img={Logo } descr={"BU Class of 2028"} />
-<Profile name={"Anderson Blanco"} img={Logo } descr={"BU Class of 2028"} />
+ <Profile name={"Anderson Blanco"} img={Logo } descr={" "} />
+<Profile name={"Esteban Cubides"} img={Logo } descr={" "} />
 </div>
 
 <div className={styles.footer} style = {{
@@ -51,15 +51,19 @@ export default function Founders(){
     textAlign:"center",
     justifyContent:"center",
     alignItems:"center",
-  marginTop: 150,
-    height: "100%"
+  marginTop: 100,
+    height: "100%",
+    flexDirection:"column",
+    display:"flex",
 }}>
     <div style = {{display:"felx", flexDirection:"row", justifyContent:"space-between"}}>
         {/*contacts 1*/}
         {/*contacts 2*/}
     </div>
 
-      <h3>copyright FiTech 2025</h3>
+     <h1 style = {{fontSize: "150%"}}>More coming soon!</h1>
+     <br/>
+      <h3 style = {{fontSize:"110%%"}}>copyright FiTech 2025</h3>
 
     </div>
 
