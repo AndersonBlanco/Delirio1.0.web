@@ -17,8 +17,10 @@ export default function Home() {
    
    <div className = {styles._header}  >
     <div className={styles.row} >
-      <Image src={Logo} style={{position:"relative", right: "40vw", width: 50, height: 50}}/>
-    <h1 style = {{fontSize: 31, color: "black", position:"relative", left: "-10px" }}>FiTech</h1>
+      <div style={{width: "3vw"}}>
+      <Image objectFit="contain" layout="responsive" src={Logo} style={{position:"relative", right: "40vw",}}/>
+    </div>
+    <h1 style = {{fontSize: "2vw", color: "black", position:"relative", left: "-10px" }}>FiTech</h1>
     </div>
    </div>
 

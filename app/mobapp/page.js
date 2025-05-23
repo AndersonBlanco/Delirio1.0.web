@@ -41,14 +41,14 @@ export default function MobApp(){
     <Image  layout = {"responsive"}  height= {100} style= {{}} src = {U1}/>
 </div>
  
-     <div style= {{minWidth: "200px", maxWidth: "300px"}}>
-
-<Image layout = {"responsive"}  height={100} style= {{}} src = {U4}/>
-</div>
+     
         <div style= {{minWidth: "200px", maxWidth: "300px"}}>    
             <Image   layout = {"responsive"}  height={100} style= {{}} src = {U2}/>
                 </div>
+ <div style= {{minWidth: "200px", maxWidth: "300px"}}>
 
+<Image layout = {"responsive"}  height={100} style= {{}} src = {U4}/>
+</div>
                                      <div style= {{minWidth: "200px", maxWidth: "300px"}}>    
             <Image  layout = {"responsive"} height={100} style= {{}} src = {U6}/>
                 </div>   
