@@ -17,6 +17,7 @@ export default function MobApp(){
     return(
         <div id = "About" className = {styles.page} style = {{backgroundColor:"black", justifyContent:"center", alignItems:"center"}}>
            <div 
+           
            style = {{
             justifyContent:"space-evenly",
             width:"100vw",
@@ -25,32 +26,34 @@ export default function MobApp(){
             
              flexDirection:"row",
              display:"flex",
-            overflow:"show",
-        
+            overflowX:"show",
+           overflow: "scroll",
+            whiteSpace:"nowrap", 
              paddingBlock: 34,
              position:"relative", 
              columnGap: 25,
-             
+             scrollbarGutter:"stable",
+            scrollbarWidth:"none",
              }}>
 
         
-<div style= {{maxWidth: "300px"}}>
+<div style= {{minWidth: "200px", maxWidth: "300px"}}>
     <Image  layout = {"responsive"}  height= {100} style= {{}} src = {U1}/>
 </div>
  
-     <div style= {{maxWidth: "300px"}}>
+     <div style= {{minWidth: "200px", maxWidth: "300px"}}>
 
 <Image layout = {"responsive"}  height={100} style= {{}} src = {U4}/>
 </div>
-        <div style= {{maxWidth: "300px"}}>    
+        <div style= {{minWidth: "200px", maxWidth: "300px"}}>    
             <Image   layout = {"responsive"}  height={100} style= {{}} src = {U2}/>
                 </div>
 
-                                     <div style= {{maxWidth: "300px"}}>    
+                                     <div style= {{minWidth: "200px", maxWidth: "300px"}}>    
             <Image  layout = {"responsive"} height={100} style= {{}} src = {U6}/>
                 </div>   
 
-                        <div style= {{maxWidth: "300px"}}>    
+                        <div style= {{minWidth: "200px", maxWidth: "300px"}}>    
             <Image layout = {"responsive"}  height={100} style= {{}} src = {U5}/>
                 </div>   
  
