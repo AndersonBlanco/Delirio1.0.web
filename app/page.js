@@ -16,12 +16,9 @@ export default function Home() {
   return (
     <>
     <div className={styles.page} >
-
-      <div>
    
-   <div className = {styles._header}>
-    <div className={[styles.row]}>
-      <div></div>
+   <div className = {styles._header}  >
+    <div className={styles.row} >
       <Image src={Logo} style={{position:"relative", right: "40vw", width: 50, height: 50}}/>
     <h1 style = {{fontSize: 31, color: "black", position:"relative", left: "-10px" }}>FiTech</h1>
     </div>
@@ -30,7 +27,7 @@ export default function Home() {
 
 
 
-       <div style = {{ top: "150px", justifyContent:"center", alignItems:"center", display:"flex", flexDirection:"row", position:"relative", left: "45px"}}>
+       <div style = {{ top: "170px", justifyContent:"center", alignItems:"center", display:"flex", flexDirection:"row", position:"relative", left: "45px"}}>
                <div style = {{position:"relative", top: "100%"}}>
                 {Arrow}
                 </div>
@@ -51,10 +48,9 @@ export default function Home() {
                 </div>
           </div>
 
-          <h1 style = {{ width: "100%",   textAlign:"center", textTransform:"uppercase", color: "black", position:"relative", top: "270px"}}>Learn & Get Fit With Tech</h1>
+          <h1 style = {{ width: "100%",   textAlign:"center", textTransform:"uppercase", color: "black", position:"relative", top: "150px"}}>Learn & Get Fit With Tech</h1>
 
-</div>
- 
+
     </div>
     <About/>
     <Founders/>

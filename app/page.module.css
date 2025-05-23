@@ -178,12 +178,17 @@ a.secondary {
 
 
 ._header{
-  background-color: transparent;
+  background-color: white;
   width:100%;
   top: 15px;
-  
+  border-style: solid;
+  border-width: 0; 
+
  justify-content: space-evenly;
-  position: static;
+  position: absolute;
+  border-bottom-width: 3px;
+  padding-bottom: 10px;
+  border-color: #c9c9c9;
 }
 
 
@@ -221,3 +226,32 @@ a.secondary {
   position:relative;
   left:-51;
 }
+
+
+
+
+/*SLider */
+
+.slide_container {
+  width: 70%;
+  margin: auto; }
+
+.h3 {
+  text-align: center; }
+
+.each_slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.each_slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+ 
