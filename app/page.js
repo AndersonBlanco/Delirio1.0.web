@@ -9,9 +9,7 @@ import Founders from "./founders/page";
 import About from "./mobapp/page";
 
 export default function Home() {
-  const ratio = (700/370),
-        r = 25; 
-
+ 
    
   return (
     <>
@@ -48,7 +46,7 @@ export default function Home() {
                 </div>
           </div>
 
-          <h1 style = {{ width: "100%",   textAlign:"center", textTransform:"uppercase", color: "black", position:"relative", top: "150px"}}>Learn & Get Fit With Tech</h1>
+          <h1 style = {{ width: "100%",   textAlign:"center", textTransform:"uppercase", color: "black", position:"relative", }}>Learn & Get Fit With Tech</h1>
 
 
     </div>

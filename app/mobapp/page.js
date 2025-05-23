@@ -15,7 +15,7 @@ export default function MobApp(){
  
   
     return(
-        <div id = "About" className = {styles.page} style = {{backgroundColor:"black", justifyContent:"center", alignItems:"flex-start"}}>
+        <div id = "About" className = {styles.page} style = {{backgroundColor:"black", justifyContent:"center", alignItems:"center"}}>
            <div 
            style = {{
             justifyContent:"space-evenly",
@@ -30,7 +30,7 @@ export default function MobApp(){
              paddingBlock: 34,
              position:"relative", 
              columnGap: 100,
-             top: "-310%"
+             
              }}>
 
         

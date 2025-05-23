@@ -47,15 +47,15 @@ export default function Founders(){
     textAlign:"center",
     justifyContent:"center",
     alignItems:"center",
-    paddingBottom:"5%"
-
+  
+    height: "100%"
 }}>
     <div style = {{display:"felx", flexDirection:"row", justifyContent:"space-between"}}>
         {/*contacts 1*/}
         {/*contacts 2*/}
     </div>
 
-      <h1>copyright FiTech 2025</h1>
+      <h3>copyright FiTech 2025</h3>
 
     </div>
 
