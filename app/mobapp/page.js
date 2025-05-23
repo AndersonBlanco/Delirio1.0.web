@@ -11,7 +11,7 @@ import U6 from "../assets/ui6.png";
  
  
 
-export default function About(){
+export default function MobApp(){
  
   
     return(
@@ -30,7 +30,7 @@ export default function About(){
              paddingBlock: 34,
              position:"relative", 
              columnGap: 100,
-             top: -47
+             top: "-310%"
              }}>
 
         
