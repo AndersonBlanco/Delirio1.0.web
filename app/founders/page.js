@@ -32,8 +32,8 @@ export default function Founders(){
 <div style = {{
     display:"flex",
     flexDirection:"row",
-    justifyContent:"center",
-    columnGap: 50,
+    justifyContent:"space-evenly",
+        width:"100%",
     alignItems:"center",
 
 }}>

@@ -29,30 +29,32 @@ export default function MobApp(){
         
              paddingBlock: 34,
              position:"relative", 
-             columnGap: 100,
+             columnGap: 25,
              
              }}>
 
         
-<div>
-    <Image height= {500} style= {{}} src = {U1}/>
+<div style= {{maxWidth: "300px"}}>
+    <Image  layout = {"responsive"}  height= {100} style= {{}} src = {U1}/>
 </div>
  
-     <div>
+     <div style= {{maxWidth: "300px"}}>
 
-<Image height={500} style= {{}} src = {U4}/>
+<Image layout = {"responsive"}  height={100} style= {{}} src = {U4}/>
 </div>
-        <div>    
-            <Image height={500} style= {{}} src = {U2}/>
+        <div style= {{maxWidth: "300px"}}>    
+            <Image   layout = {"responsive"}  height={100} style= {{}} src = {U2}/>
                 </div>
 
-                        <div>    
-            <Image height={500} style= {{}} src = {U5}/>
+                                     <div style= {{maxWidth: "300px"}}>    
+            <Image  layout = {"responsive"} height={100} style= {{}} src = {U6}/>
+                </div>   
+
+                        <div style= {{maxWidth: "300px"}}>    
+            <Image layout = {"responsive"}  height={100} style= {{}} src = {U5}/>
                 </div>   
  
-                        <div>    
-            <Image height={500} style= {{}} src = {U6}/>
-                </div>   
+    
  
       
         </div>

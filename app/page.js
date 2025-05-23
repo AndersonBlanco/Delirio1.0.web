@@ -4,7 +4,7 @@ import "./globals.css";
 import Link from 'next/link'
 import Image from "next/image";
 import HomeImg from "./assets/img1.png"; 
-import { Arrow } from "./assets/svgs";
+import Arrow from "./assets/Arrow"; 
 import Founders from "./founders/page";
 import About from "./mobapp/page";
 
@@ -24,10 +24,10 @@ export default function Home() {
 
 
 
-
-       <div style = {{ top: "170px", justifyContent:"center", alignItems:"center", display:"flex", flexDirection:"row", position:"relative", left: "45px"}}>
+<div style = {{display:"flex", flexDirection:"column", rowGap: 150}}> 
+       <div style = {{ top: "125px", justifyContent:"center", alignItems:"center", display:"flex", flexDirection:"row", position:"relative", columnGap: 0}}>
                <div style = {{position:"relative", top: "100%"}}>
-                {Arrow}
+                <Arrow style = {{height: "20vw", width: "9vw"}} />
                 </div>
                 <ul 
                 className={styles._ul}
@@ -36,19 +36,20 @@ export default function Home() {
                   listStyleType:"none",
 
                 }}>
-                  <li><Link href = "#About" scroll = {true}><h1>LEARN</h1></Link></li>
-                  <li><h1>DEVELOP</h1></li>
-                  <li  ><h1>APPLY</h1></li>
+                  <li><Link href = "#About" scroll = {true}><h1 style = {{fontSize: "2.5vw" }}>LEARN</h1></Link></li>
+                  <li><h1 style = {{fontSize: "2.5vw" }}>DEVELOP</h1></li>
+                  <li  ><h1 style = {{fontSize: "2.5vw" }}>APPLY</h1></li>
                 </ul>
 
-                <div style = {{position:"relative", top: "-50px", width: "650px", backgroundColor: "transparent"}}> 
-                 <Image src={HomeImg} objectFit="cover" layout="responsive" />
+                <div style = {{position:"relative", top: "-61px", width: "50vw", backgroundColor: "transparent"}}> 
+                 <Image src={HomeImg} objectFit="contain" layout="responsive" />
                 </div>
           </div>
 
-          <h1 style = {{ width: "100%",   textAlign:"center", textTransform:"uppercase", color: "black", position:"relative", }}>Learn & Get Fit With Tech</h1>
+          <h1 style = {{ width: "100%", fontSize: "2vw", textAlign:"center", textTransform:"uppercase", color: "black", position:"relative", }}>Learn & Get Fit With Tech</h1>
 
 
+    </div>
     </div>
     <About/>
     <Founders/>
