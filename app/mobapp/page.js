@@ -57,7 +57,7 @@ export default function MobApp(){
  
  <div className={styles.iframe1_container} style = {{backgroundColor:"transparent", overflow: "hidden", minWidth: "200px", maxWidth: "300px", width: "10vw", overflowY:"hidden",justifyContent:"center", alignItems:"center", height: "61vh", width:"50vw", overflow:"hidden", position:"relative"}}>
 
-            <iframe allowtransparency className={styles.iframe1} style = {{borderWidth:0, backgroundColor: "transparent", position:"absolute", left: "-130%",}} src="https://drive.google.com/file/d/1qudC8qPXAyvBLSN7JfD6PZrzAws5h2EM/preview" allow="autoplay" title="FiTech App"/>
+            <iframe allowtransparency className={styles.iframe1} style = {{borderWidth:0, backgroundColor: "transparent", position:"absolute", left: "-124%",}} src="https://drive.google.com/file/d/1qudC8qPXAyvBLSN7JfD6PZrzAws5h2EM/preview" allow="autoplay" title="FiTech App"/>
 
  </div>
      
