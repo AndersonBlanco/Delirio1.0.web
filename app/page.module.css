@@ -212,22 +212,6 @@ a.secondary {
   text-decoration: none;
 }
 
-._ul li:first-child{
-  position:relative;
-  left:40;
-}
-
-
-._ul li:nth-child(2){
-  position:relative;
-  left:-10;
-}
-
-._ul li:nth-child(3){
-  position:relative;
-  left:-51;
-}
-
 
 
 

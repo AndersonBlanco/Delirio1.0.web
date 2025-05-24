@@ -38,9 +38,9 @@ export default function Home() {
                   listStyleType:"none",
 
                 }}>
-                  <li><Link href = "#About" scroll = {true}><h1 style = {{fontSize: "2.5vw" }}>LEARN</h1></Link></li>
-                  <li><h1 style = {{fontSize: "2.5vw" }}>DEVELOP</h1></li>
-                  <li  ><h1 style = {{fontSize: "2.5vw" }}>APPLY</h1></li>
+                  <li style = {{  position:"relative", left:40}} ><h1 style = {{fontSize: "2.5vw" }}>LEARN</h1></li>
+                  <li style = {{  position:"relative", left:-10}}><h1 style = {{fontSize: "2.5vw" }}>DEVELOP</h1></li>
+                  <li style = {{  position:"relative", left:-51}}><h1 style = {{fontSize: "2.5vw" }}>APPLY</h1></li>
                 </ul>
 
                 <div style = {{position:"relative", top: "-61px", width: "50vw", backgroundColor: "transparent"}}> 
